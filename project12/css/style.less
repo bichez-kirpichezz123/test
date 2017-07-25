@@ -1,0 +1,254 @@
+@import url('smart-grid.less');
+
+.reset();
+.container {
+    .container();
+}
+
+.fwl() {
+    font-weight: 300;
+}
+
+.fwb() {
+    font-weight: bold;
+}
+
+.fws() {
+    font-weight: 600;
+}
+
+.bg() {
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+button {
+    border: 0;
+    outline: none;
+    background-color: #fff;
+}
+
+@rem: 1rem / 16px;
+.wrapper {
+    font-family: "Myriad Pro", 'Arial';
+}
+
+a {
+    text-decoration: none;
+}
+
+
+.preheader__all {
+    .row-flex();
+    justify-content: space-between;
+    align-items: center;
+    .col();
+    padding: 45px 0px;
+    .logo {
+        .size (6);
+        font-size: @rem * 24;
+        text-transform: uppercase;
+        text-align: center;
+        .md-block( {
+            font-size: 15px;
+        }
+        );
+        .xs-block( {
+            font-size: 10px;
+        }
+        );
+    }
+    .preheader__call {
+        .row-flex();
+        flex-direction: column;
+        justify-content: center;
+        .size(7);
+        align-items: center;
+        font-size: @rem * 25;
+        .md-block( {
+            font-size: 13px;
+        }
+        );
+        .xs-block( {
+            font-size: 13px;
+            .size(12);
+        }
+        );
+        .call__btn {
+            border: 2px solid #282828;
+            border-radius: 5px;
+            padding: 8px 15px;
+            font-size: @rem * 20;
+            cursor: pointer;
+            .xs-block( {
+                padding: 3px;
+            }
+            );
+            .md-block( {
+                font-size: 12px;
+                width: 130px;
+                margin-right: 10px;
+            }
+            );
+        }
+    }
+}
+
+.menu-header {
+    background-color: #292d30;
+}
+
+.header__ul {
+    .md-block( {
+        display: flex;
+        flex-direction: column;
+    }
+    );
+    a {
+        color: #bdbebe;
+        transition: all 0.4s;
+    }
+    width: 100%;
+    font-size:@rem * 25;
+    padding:30px 0px;
+    max-width: 1130px;
+    .row-flex();
+    justify-content: space-between;
+    margin: 0px auto;
+}
+
+.header__li {
+     :hover {
+        color: #fff;
+    }
+}
+
+.bg-header {
+    background-image: url(../images/bg-header.jpg);
+    .bg;
+    padding-bottom: 50px;
+}
+
+.bg__center-text {
+    .row-flex();
+    .col();
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    text-transform: uppercase;
+    padding-top: 270px;
+    color: #eee;
+    .more-relative {
+        margin-bottom: 20px;
+    }
+}
+
+.center-text {
+    &__btn {
+        background-color: #059feb;
+        color: #fff;
+        font-size: @rem * 30;
+        border-radius: 50px;
+        padding: 10px 30px;
+        .fws;
+        &-relative {
+            margin-bottom: 100px;
+        }
+    }
+    &__watch {
+        font-size: @rem * 20;
+        text-transform: none;
+        &-relative {
+            padding: 80px 0px 40px;
+        }
+    }
+    &__h1 {
+        font-size: @rem * 60;
+        letter-spacing: 5px;
+        text-transform: uppercase;
+    }
+    &__h2 {
+        font-size: @rem * 30;
+        &-relative {
+            padding: 5px 0px;
+        }
+    }
+    &__p {
+        font-size: @rem * 20;
+    }
+}
+
+
+.receive-all {
+    text-align: center;
+    color: #000;
+    .all-blocks-receive {
+        .row-flex();
+        justify-content: space-around;
+    }
+    .block-receive {
+        .row-flex();
+        flex-direction: column;
+        align-items: center;
+        justify-content: flex-start;
+        text-align: center;
+        .size(6);
+        .size-md(12);
+        .size-sm(24);
+        img {
+            height: 150px;
+            .md-block( {
+                padding-top: 15px;
+            }
+            );
+        }
+    }
+}
+
+
+.all-blocks-receive {
+    padding-top: 50px;
+}
+
+.receive__h2 {
+    font-weight: 900;
+    text-transform: uppercase;
+    font-size: @rem * 36;
+    &-relative {
+        padding: 100px 0px 5px;
+    }
+}
+
+.block__b {
+    font-size: @rem * 25;
+    .md-block( {
+        font-size: 18px;
+    }
+    );
+    &-relative {
+        padding: 20px 0px;
+    }
+}
+
+.block__p {
+    font-size: @rem * 18;
+    .md-block( {
+        font-size: 15px;
+    }
+    );
+}
+
+.receive__p {
+    .fws;
+    .md-block( {
+        font-size: 14px;
+    }
+    );
+}
+
+
+@media (max-width: 400px) {
+    html {
+        font-size: 13px;
+    }
+}

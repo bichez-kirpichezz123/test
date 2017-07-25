@@ -1,0 +1,56 @@
+{
+  "_from": "smart-grid",
+  "_id": "smart-grid@1.1.0",
+  "_inBundle": false,
+  "_integrity": "sha1-rx5aYYYlXGGfMnzjOE7b3axa82s=",
+  "_location": "/smart-grid",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "tag",
+    "registry": true,
+    "raw": "smart-grid",
+    "name": "smart-grid",
+    "escapedName": "smart-grid",
+    "rawSpec": "",
+    "saveSpec": null,
+    "fetchSpec": "latest"
+  },
+  "_requiredBy": [
+    "#USER",
+    "/"
+  ],
+  "_resolved": "https://registry.npmjs.org/smart-grid/-/smart-grid-1.1.0.tgz",
+  "_shasum": "af1e5a6186255c619f327ce3384edbddac5af36b",
+  "_spec": "smart-grid",
+  "_where": "C:\\Users\\User\\Desktop\\project12",
+  "author": {
+    "name": "Dmitry Lavrik"
+  },
+  "bugs": {
+    "url": "https://github.com/dmitry-lavrik/smart-grid/issues"
+  },
+  "bundleDependencies": false,
+  "dependencies": {},
+  "deprecated": false,
+  "description": "Smart CSS Grid with different preprocessors: LESS, SCSS, SASS or Stylus",
+  "devDependencies": {},
+  "homepage": "https://github.com/dmitry-lavrik/smart-grid#readme",
+  "keywords": [
+    "css",
+    "less",
+    "scss",
+    "sass",
+    "stylus"
+  ],
+  "license": "ISC",
+  "main": "index.js",
+  "name": "smart-grid",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dmitry-lavrik/smart-grid.git"
+  },
+  "scripts": {
+    "test": "node test.js"
+  },
+  "version": "1.1.0"
+}
